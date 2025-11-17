@@ -18,4 +18,4 @@ init_routes(app)
 # run all:
 if __name__ == "__main__":
     port = os.environ.get("PORT", 8082)
-    app.run(port=port, debug=True)
+    app.run(port=port,host="0.0.0.0", debug=True)
